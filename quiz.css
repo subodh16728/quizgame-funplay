@@ -1,0 +1,184 @@
+ :root{
+      --color-1: rgba(199, 226, 240, 0.664);
+      --color-2:4B4B71; 
+      --color-3:white;
+  }
+  .body
+  {
+      margin: 0px;
+      padding: 0px;
+  }
+  /* .timer
+  {
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      position: absolute;
+      top: 20%;
+      left: 50%; */
+      /* text-align: right;
+  } */
+  #name,#Result
+ {
+      font-size: 3rem;
+      color: rgb(0, 0, 0);
+      font-size: 40px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: 12;
+ }
+ .Startbtn
+ {
+      background-color: #c2b8b8;
+      border-radius: 20px;
+      width: 180px;
+      height: 45px;
+      font-family: Roboto;
+      color: rgb(14, 15, 14);
+      font-size: 25px;
+      outline: none;
+      position: absolute;
+      top: 72%;
+      font-weight: bold;
+      border: 1.7px solid black;
+
+ }
+ .Startbtn:hover
+ {
+      background-color: white;
+      color: rgb(24, 6, 6);
+      transition: 0.15s;
+      font-weight: bold;
+ }
+ .col-sm.r 
+ {
+     margin: 0;
+     padding: 0;
+     background-color: var(--color-1);
+     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     height: 100vh;
+ }
+.row
+{
+     height: 100vh;
+}
+#link,#image
+{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: 15;
+}
+.col-sm.r2
+{
+     margin: 0;
+     padding: 0;
+     background-color: #dddddd;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     height: 100vh;
+    
+     
+}
+p
+{
+     display: contents;
+}
+#instr
+{
+      color: rgb(73, 66, 66);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 640;
+      font-size: 21.5;
+      display: flex;
+}
+#InstructionsHead
+{
+      color: rgb(104, 86, 86);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 35;
+
+}
+.btn
+{
+      padding-left: 5%;
+      padding-right: 5%;
+      min-width: 250px;
+      /* height: 40; */
+      padding-top: 2%;
+      padding-bottom: 2%;
+      left: 50.27px;
+      justify-content: center;
+      align-content: center;
+      border: 1.9px solid #000000;
+      box-sizing: border-box;
+      border-radius: 20px;
+      margin: 10;
+      outline: none;
+      float: left;
+      text-align: left;
+}
+.btn:hover 
+{
+      /* background-color: #B4A5A5 ; */
+      color: black;
+      font-weight: bold;
+      font-style: italic;
+      /* text-decoration: none; */
+      outline: none;
+      background-color: #dddddd;
+}
+.InstructionDiv
+{
+      margin-bottom: 40;
+}
+#que
+{
+      font-size: 30;
+}
+#QuestionNo
+{
+      font-size: 20;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+}
+#level{
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+      color: rgba(182, 43, 43, 0.904);
+}
+.quesclass{
+      margin-top: -5%;
+      padding-top: 10%;
+}
+.quesnumber{
+      margin-top: -20%;
+}
+
+table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    } 
+td, th {
+      text-align: left;
+      padding: 8px;
+}
+.maincontainer{
+      height: 10%;
+      width: 80%;
+}

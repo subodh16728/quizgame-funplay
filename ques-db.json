@@ -1,0 +1,111 @@
+{
+	"q1": {
+		"question": "1. What is the formula of resonant angular frequency of RLC circuit?",
+		"options": [
+			"A. L*C",
+			"B. 1/L*C",
+			"C. √LC",
+			"D. 1√LC"
+		],
+		"level": "(Remember)",
+		"answer": "D. 1√LC"
+	},
+	"q2": {
+		"question": "2. When LT method is used for transient analysis_______.",
+		"options": [
+			"A. Transform circuit is drawn first.",
+			"B. Transform circuit drawn in middle.",
+			"C. Transform circuit is drawn last.",
+			"D. Transform circuit is not drawn."
+		],
+		"level": "(Remember)",
+		"answer": "A. Transform circuit is drawn first."
+	},
+	"q3": {
+		"question": "3. If  L{f(t)}=F(s) then L{f(at)} =_______. ",
+		"options": [
+			"A. F(s/a)",
+			"B. F(a/s)",
+			"C. 1/a(F(s/a)",
+			"D. a(F(s/a)"
+		],
+		"level": "(Understand)",
+
+		"answer": "C. 1/a(F(s/a)"
+	},
+	"q4": {
+		"question": "4. Response will be ___, if roots of equations are complex conjugate.",
+		"options": [
+			"A. Over damped",
+			"B. Critically damped",
+			"C. Damped",
+			"D. Under damped"
+		],
+		"level": "(Understand)",
+		"answer": "D. Under damped"
+	},
+	"q5": {
+		"question": "5. Find the inverse Laplace transform of (3s+4)/(s^2+25).",
+		"options": [
+			"A. 3cos5t + 4/5 sin5t",
+			"B. 2cos3t + 5/3 sin3t",
+			"C. 3cos2t + 4/3 sin2t",
+			"D. 5cos3t + 4/5 sin3t"
+		],
+		"level": "(Apply)",
+		"answer": "A. 3cos5t + 4/5 sin5t"
+	},
+	"q6": {
+		"question": "6. Reactance curve is a graph of individual reactances verses______. ",
+		"options": [
+			"A. Phase",
+			"B. Frequency",
+			"C. Amplitude",
+			"D. Time period"
+		],
+		"level": "(Apply)",
+		"answer": "B. Frequency"
+	},
+	"q7": {
+		"question": "7. For what value of damping factor, the waveform will be overdamped?",
+		"options": [
+			"A. ξ = 1",
+			"B. ξ < 1",
+			"C. ξ > 1",
+			"D. None of the above"
+		],
+		"level": "(Analyze)",
+		"answer": "C. ξ > 1"
+		
+	},	"q8": {
+		"question": "8. Actual damping coefficient Vs critical damping coefficient is called ____.",
+		"options": [
+			"A. Resistive factor",
+			"B. Resistive coefficient",
+			"C. Damping factor",
+			"D. Damping coefficient"
+		],
+		"level": "(Analyze)",
+		"answer": "C. Damping factor"
+	},"q9": {
+		"question": "9. Evaluate the damping ratio: m = 200Kg, ω = 20rad/s, ζ = 1000 Ns/m.",
+		"options": [
+			"A. 0.05",
+			"B. 0.03",
+			"C. 0.06",
+			"D. 0.04"
+		],
+		"level": "(Evaluate)",
+		"answer": "D. 0.04"
+	},	"q10": {
+		"question": "10. Design RLC circuit having overdamped response, if L=6H and C=3F.",
+		"options": [
+			"A. <img src='images/wrong 1.PNG' height =80 width=200>",
+			"B. <img src='images/wrong 2.PNG' height =80 width=200>",
+			"C. <img src='images/wrong 3.PNG' height =80 width=200>",
+			"D. <img src='images/Right.PNG' height =80 width=200>"
+		],
+		"level": "(Create)",
+		"answer": "D. "
+	}
+}
